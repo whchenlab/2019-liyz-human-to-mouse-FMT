@@ -1,11 +1,11 @@
 condition1<-read.csv("Supplementary_Table_S2.csv",header=TRUE) #### -- this file comes from Supplementary Table S2.doc --#######
-condition1<-condition1[c(2,3,4,5,6,7)]
-condition2<-read.csv("list_condition_complex.csv",header=TRUE)
-condition2<-condition2[c(1,2,3)]
+#condition1<-condition1[c(2,3,4,5,6,7)]
+#condition2<-read.csv("list_condition_complex.csv",header=TRUE)
+#condition2<-condition2[c(1,2,3)]
 
-condition3<-merge(condition2,condition1,by="mouse",all=TRUE)
+#condition3<-merge(condition2,condition1,by="mouse",all=TRUE)
 
-write.csv(condition3,"Condition3.csv")
+#write.csv(condition3,"Condition3.csv")
 
 
 condition1$count<-1
