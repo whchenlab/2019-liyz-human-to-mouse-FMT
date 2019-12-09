@@ -1,4 +1,4 @@
-#Consistent alterations of human fecal microbes after transplanted to germ-free mice
+Consistent alterations of human fecal microbes after transplanted to germ-free mice
 =================================================================================================================================
 This is a description file.
 =================================================================================================================================
